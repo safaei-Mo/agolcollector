@@ -29,7 +29,7 @@
 
 
    <script>
-    require(["esri/config", "esri/Map", "esri/views/MapView","esri/widgets/Locate" ], (esriConfig,Map, MapView, Locate) => {
+    require(["esri/config", "esri/Map", "esri/views/MapView","esri/widgets/Locate" , "esri/widgets/Search"], (esriConfig,Map, MapView, Locate,Search) => {
         esriConfig.apiKey = "AAPKbbf1d614464f43d6893e89040496e546zaR0zSPYnguI_N0zab0yje30u1aq2GS4mz7fzZ78FQ";
 
         const map = new Map({
@@ -50,6 +50,15 @@
         view.ui.add(locateBtn, {
           position: "top-left"
         });
+
+    // Create the search widget and add it to the top right corner of the view
+    const searchWidget = new Search({
+      view: view
+    });
+
+    view.ui.add(searchWidget, {
+      position: "top-right"
+    });
      });
     </script>
 
