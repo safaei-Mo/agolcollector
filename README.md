@@ -12,7 +12,7 @@
 
 ### 1- Creating a webpage, adding esri map,  zoom in and out buttons, search bar
 
-### 2- Create a Survey on Survey 123 website (log in with your AGOL Account): Create a map survey page with search location by names and adding points options, then publish the survey and get the url (The survey will be added to the AGOL account as a database)
+### 2- Create a Survey on Survey 123 website (log in with your AGOL Account): Create a map survey page with search location by names and adding points options, then publish the survey and get the survey page url (The survey will be added to the AGOL account as a database)
 
-### 3- Get the url of the Survey on AGOL
+### 3- Get the url of the Survey on AGOL, add a button to your map with the link to your survey page url.
 
