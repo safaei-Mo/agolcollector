@@ -16,5 +16,5 @@
 
 ### 3- Add a button to your map with the link to your survey page url.
 
-### 4- Add a featurelayer to your webpage with url of the survey results database on AGOL to show the results of the survey on the map.
+### 4- Add a featurelayer to your webpage with url of the survey results (points) database on AGOL to show the results of the survey on the map.
 
