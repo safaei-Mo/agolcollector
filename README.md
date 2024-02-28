@@ -14,5 +14,5 @@
 
 ### 2- Create a Survey on Survey 123 website (log in with your AGOL Account): Create a map survey page with search location by names and adding points options, then publish the survey and get the url (The survey will be added to the AGOL account as a database)
 
-### 3- 
+### 3- Get the url of the Survey on AGOL
 
